@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=League+Gothic&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap')
+
+
+*{
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #575016;
+}
+
+.text-warning{
+    font-size: 60px;
+    font-weight: 600;
+}
+ 
+.portal{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+}
+
+.flex{
+    padding: rem;
+    display: flex;
+    border-radius: 2px;
+}
+
+.col-md-5{
+    margin-left: -2%;
+}
+
+.col-md-5 .banner-img{
+    border-radius: 55px;
+}
+
+.page-2{
+    display: flex;
+    padding-left: 150px;
+    margin-top: 90px;
+}
+
+.page-2 h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: "League Gothic", sans-serif;
+    font-optical-sizing: auto;
+  
+}
+
+#image{
+    border-radius: 20px;
+    max-height: 770px;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    padding-left: 180px;
+    margin-top: 140px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-container{
+    width: 100%;
+    padding: 70px 30px 2opx;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.social-icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+hover effect
+
+.social-icon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icon a:hover i{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 30px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footernav ul li a{
+       color: white;
+       margin: 20px;
+       text-decoration: none;
+       font-size: 1.3em;
+       opacity: 0.7;
+       transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+}
+
+.footerbottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+@media(max-width: 700px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .text-warning{
+        font-size: 20px;
+    }
+
+    .col-md-5{
+        width: 100%;
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .page-2{
+        display: block;
+        width: 100%;
+        margin: 20px;
+        padding: 0%;
+
+    }
+
+   #image{
+        width: 90%;
+        justify-content: center;
+   } 
+
+   .ubuntu-bold{
+        text-decoration: none;
+        text-align: center;
+        justify-content: center;
+        padding: 10%;
+        margin: 0%;
+        width: 100%;
+        font-size: 20px;
+   }
+
+   .ubuntu-bold h3 {
+        font-weight: 600;
+        font-size: 30px;
+   }
+}
