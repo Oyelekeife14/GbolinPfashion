@@ -71,6 +71,24 @@ body{
     margin-top: 140px;
 }
 
+.head{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.note{
+    text-align: center;
+    font-family: "Pinyon Script", cursive;
+    font-weight: 250;
+    font-style: normal;
+}
+
+.card img{
+    max-height: 500px;
+}
+
 footer{
     background-color: black;
 }
