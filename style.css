@@ -71,6 +71,11 @@ body{
     margin-top: 140px;
 }
 
+.page-3{
+    margin-top: 80px;
+    padding-left: 20px;
+}
+
 .head{
     font-family: "Pacifico", cursive;
     font-weight: 400;
@@ -87,6 +92,39 @@ body{
 
 .card img{
     max-height: 500px;
+}
+
+.feature{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 20px;
+   
+    align-items: center;
+    text-align: center;
+}
+
+.feature img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15%;
+}
+
+.text2{
+    padding-left: 130px;
+}
+
+.text2 p{
+    font-size: 18x;
+}
+
+.icon{
+    display: flex;
+    padding-left: 20px;
+}
+
+
+.text-side{
+    padding-left: 20px;
 }
 
 footer{
@@ -175,6 +213,18 @@ hover effect
 
     .text-warning{
         font-size: 20px;
+    }
+
+    .feature{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text2{
+        padding-right: 100px;
+        margin: auto;
+
+
     }
 
     .col-md-5{

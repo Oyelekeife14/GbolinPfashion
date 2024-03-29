@@ -13,3 +13,4 @@ function changeImage() {
 
 // Change image every 10 seconds (30000 milliseconds)
 setInterval(changeImage, 10000);
+
